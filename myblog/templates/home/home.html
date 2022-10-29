@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock title %}
+{% block homeactive %} active {% endblock homeactive %}
+
+{% block body %}
+
+<div class="container">
+    <div class="jumbotron my-3">
+      <h1 class="display-4">Welcome to Ramesh Website!</h1>
+      <p class="lead">Life is learning and learning is life until the death knocks at our door.</p>
+      <hr class="my-4">
+      <p>In this site you can read articles too.</p>
+      <p class="lead">
+      </p>
+      <a class="btn btn-primary btn-lg" href="/blog" role="button">Go to Blog</a>
+      </div>
+    </div>
+    
+<div class="container">
+    <h2>WHO AM I!</h2>
+    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 my-4 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">Programmer</strong>
+              <h3 class="mb-0">Ramesh Parajuli</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto"> My name is Ramesh Parajuli. I'm from Sydney, Parramatta. 
+                I have practical experience in information technology field. I am a student. 
+                Regarding I have two years of experience in web development. 
+                I familiar with HTML , CSS , Python , C and C++.Besides, I have some basic knowledge of flutter too. 
+                I want to be the best as much as I can be. I would like to learn new things related to information technology. 
+                I am proficient at typing as well as playing cricket and enjoy traveling.</p>
+                   </div>
+       <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="static/img/photo.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+            </div>     
+          </div>
+          </div>
+{% endblock body %}
